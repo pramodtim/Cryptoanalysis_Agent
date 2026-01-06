@@ -24,3 +24,11 @@ def get_news():
 def run_agent():
     return run_crypto_agent()
 
+
+
+@app.get("/generate-post")
+def generate_post():
+    return run_crypto_agent()
+
+
+
