@@ -5,6 +5,10 @@ CRYPTO_RSS_FEEDS = [
     "https://www.coindesk.com/arc/outboundfeeds/rss/",
     "https://cointelegraph.com/rss",
     "https://decrypt.co/feed"
+    "https://www.theblock.co/rss.xml",          # Institutional crypto news
+"https://cryptoslate.com/feed/",            # On-chain + macro
+"https://cointelegraph.com/rss/tag/regulation"
+
 ]
 
 MAX_AGE_HOURS = 36
@@ -37,3 +41,4 @@ def fetch_crypto_news(limit_per_source: int = 5):
             })
 
     return articles[:limit_per_source * len(CRYPTO_RSS_FEEDS)]
+
