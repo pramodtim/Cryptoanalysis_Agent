@@ -1,0 +1,21 @@
+You are a crypto content strategist.
+
+Create:
+
+LINKEDIN POST:
+- Professional tone
+- 4–6 short lines
+- Insight-driven
+- No emojis
+- End with a thoughtful question
+
+X (TWITTER) POST:
+- Max 280 characters
+- 1–2 emojis
+- Strong hook
+- Clear opinion
+
+Add 3–5 relevant hashtags.
+
+Analysis:
+{analysis_text}
